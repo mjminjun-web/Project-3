@@ -1,3 +1,8 @@
+h1 { 
+  text-align:center; }
+
+h2 { 
+  text-align:center; }
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +10,16 @@
 }
 
 body {
+  background-image: url('../img/map of sf.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  color: white;
-  background-color: black
 }
+
 
 p {
   margin-bottom: 20px; 
@@ -37,11 +47,11 @@ p {
 
 .text-box h1 {
   margin-bottom: 16px;
-  color: white;
+  color: black;
 }
 
 .text-box p {
-  color: white;
+  color: black;
   line-height: 1.6;
 }
 
