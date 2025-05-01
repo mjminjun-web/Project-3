@@ -41,20 +41,39 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.text-box {
-  max-width: 500px;
+.text-box1 {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background, 50% opacity */
+  color: #fff; /* White text for contrast */
+  padding: 16px;
+  border-radius: 8px; /* Optional: rounded corners */
+  max-width: 600px; /* Optional: control box width */
 }
 
-.text-box h1 {
-  margin-bottom: 16px;
-  color: black;
+
+
+.text-box2 {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background, 50% opacity */
+  color: #fff; /* White text for contrast */
+  padding: 16px;
+  border-radius: 8px; /* Optional: rounded corners */
+  max-width: 600px; /* Optional: control box width */
 }
 
-.text-box p {
-  color: black;
-  line-height: 1.6;
+.text-box3 {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background, 50% opacity */
+  color: #fff; /* White text for contrast */
+  padding: 16px;
+  border-radius: 8px; /* Optional: rounded corners */
+  max-width: 600px; /* Optional: control box width */
 }
 
+.text-box4 {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background, 50% opacity */
+  color: #fff; /* White text for contrast */
+  padding: 16px;
+  border-radius: 8px; /* Optional: rounded corners */
+  max-width: 600px; /* Optional: control box width */
+}
 p {
   margin-bottom: 20px; 
   line-height: 1.6;     
