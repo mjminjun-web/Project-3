@@ -27,53 +27,6 @@ p {
 }
 
 
-.image-container {
-  display: flex;
-  gap: -50px; 
-  position: relative;
-}
-
-.image-card {
-  width: 20px;
-  height: 30px;
-  perspective: 10px;
-  position: relative;
-}
-
-.image-card .image-face {
-  width: 10%;
-  height: 10%;
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.8s;
-}
-
-.image-front {
-  transform: rotateY(0deg);
-  z-index: 2;
-}
-
-.image-back {
-  transform: rotateY(180deg);
-}
-
-.image-card:hover .image-front {
-  transform: rotateY(180deg);
-}
-
-.image-card:hover .image-back {
-  transform: rotateY(360deg);
-}
-
-
-.image-card.overlapped {
-  margin-left: -50px;
-}
-
-
-
 
 
 .container {
