@@ -26,6 +26,57 @@ p {
   line-height: 1.6;     
 }
 
+
+.image-container {
+  display: flex;
+  gap: -50px; /* Creates some overlap between the images */
+  position: relative;
+}
+
+.image-card {
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
+  position: relative;
+}
+
+.image-card .image-face {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.8s;
+}
+
+.image-front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.image-back {
+  transform: rotateY(180deg);
+}
+
+.image-card:hover .image-front {
+  transform: rotateY(180deg);
+}
+
+.image-card:hover .image-back {
+  transform: rotateY(360deg);
+}
+
+/* Optional slight overlap adjustment */
+.image-card.overlapped {
+  margin-left: -50px;
+}
+
+
+
+
+
+
 .container {
   display: flex;
   align-items: center;
