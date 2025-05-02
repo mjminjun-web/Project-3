@@ -29,7 +29,7 @@ p {
 
 .image-container {
   display: flex;
-  gap: -50px; /* Creates some overlap between the images */
+  gap: -50px; 
   position: relative;
 }
 
@@ -67,11 +67,10 @@ p {
   transform: rotateY(360deg);
 }
 
-/* Optional slight overlap adjustment */
+
 .image-card.overlapped {
   margin-left: -50px;
 }
-
 
 
 
