@@ -34,11 +34,6 @@ p {
   flex-wrap: wrap; 
 }
 
-.image-stack {
-  position: relative;
-  width: 600px; /* Adjust as needed */
-  height: 400px; /* Adjust as needed */
-}
 
 .background-img {
   width: 100%;
