@@ -96,7 +96,7 @@ p {
 }
 
 
-.cta-button {
+.cta-button-1 {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -112,12 +112,12 @@ p {
   background-color: red;
 }
 
-.cta-button {
+.cta-button-2 {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 24px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: dark red;
+  color: white;
   text-decoration: none;
   border-radius: 4px;
   font-weight: 600;
@@ -125,15 +125,15 @@ p {
 }
 
 .cta-button:hover {
-  background-color: #0056b3;
+  background-color: burgundy;
 }
 
 
-.cta-button {
+.cta-button-3 {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: purple;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -142,7 +142,7 @@ p {
 }
 
 .cta-button:hover {
-  background-color: #0056b3;
+  background-color: dark purple;
 }
 
 p {
