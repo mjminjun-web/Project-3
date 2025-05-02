@@ -41,8 +41,8 @@ p {
 }
 
 .image-card .image-face {
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
