@@ -97,7 +97,7 @@ p {
 }
 
 
-.cta-button {
+.cta-button-1 {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -113,7 +113,7 @@ p {
   background-color: red;
 }
 
-.cta-button {
+.cta-button-2 {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 24px;
@@ -130,7 +130,7 @@ p {
 }
 
 
-.cta-button {
+.cta-button-3 {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
