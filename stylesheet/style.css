@@ -36,7 +36,7 @@ p {
 .image-card {
   width: 20px;
   height: 30px;
-  perspective: 1000px;
+  perspective: 100px;
   position: relative;
 }
 
