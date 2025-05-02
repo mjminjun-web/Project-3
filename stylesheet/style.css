@@ -48,17 +48,6 @@ p {
   display: block;
 }
 
-.overlay-img {
-  position: absolute;
-  top: -40px;   /* Moves overlay upwards */
-  left: -40px;  /* Moves overlay to the left */
-  width: 400px; /* Adjust size as needed */
-  height: 300px; /* Adjust size as needed */
-  object-fit: cover;
-  border-radius: 40px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  z-index: 2;
-}
 
 
 .image-box img {
