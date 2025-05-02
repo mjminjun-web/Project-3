@@ -34,6 +34,33 @@ p {
   flex-wrap: wrap; 
 }
 
+.image-stack {
+  position: relative;
+  width: 600px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px; /* Large radius for rounded corners */
+  display: block;
+}
+
+.overlay-img {
+  position: absolute;
+  top: -40px;   /* Moves overlay upwards */
+  left: -40px;  /* Moves overlay to the left */
+  width: 400px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  object-fit: cover;
+  border-radius: 40px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+
+
 .image-box img {
   width: 500px;
   height: auto;
@@ -74,6 +101,7 @@ p {
   border-radius: 8px; /* Optional: rounded corners */
   max-width: 600px; /* Optional: control box width */
 }
+
 p {
   margin-bottom: 20px; 
   line-height: 1.6;     
